@@ -1,4 +1,4 @@
-number = int(input("any real whole number: "))
+number = int(input("positive integer: "))
 i=0
 while i >= 0:
     if number == 1:

@@ -1,5 +1,5 @@
-number = int(input("positive integer: "))
-run_till = int(input("How long would you like to run the program for? "))
+number = int(input("starting positive integer: "))
+run_till = int(input("Ending positive integer: "))
 original_num = int(number)
 i=0
 iterations = {}
@@ -18,9 +18,9 @@ while i >= 0 and original_num <= run_till:
         number = original_num
     if (number % 2) == 0:
         number = number / 2
-        print(number)
+        # print(number)
         i+=1
     else:
         number = 3*number + 1
-        print(number)
+        # print(number)
         i+=1

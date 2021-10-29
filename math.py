@@ -1,4 +1,4 @@
-# 3n+1
+# 3n+1 / 2
 
 number = int(input("starting positive integer: "))
 run_till = int(input("Ending positive integer: "))

@@ -1,3 +1,5 @@
+# 3n+1
+
 number = int(input("starting positive integer: "))
 run_till = int(input("Ending positive integer: "))
 original_num = int(number)

@@ -31,8 +31,7 @@ for value_y in list(iterations.values()):
     y_axis.append(individual_value_y)
 
 for value_x in list(iterations.keys()):
-    individual_value_x = value_x[0]
-    x_axis.append(individual_value_x)
+    x_axis.append(value_x)
 
 for i in range(0, len(x_axis)):
     x_axis[i] = int(x_axis[i])
@@ -41,4 +40,4 @@ for i in range(0, len(x_axis)):
 print(x_axis)
 print(y_axis)
 df = pd.DataFrame({'number': x_axis, 'iterations': y_axis})
-df.to_excel('./data/collatz.xlsx')
+df.to_excel('./../data/collatz.xlsx')

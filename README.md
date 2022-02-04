@@ -1,6 +1,6 @@
 # Collatz-Conjecture
 Establishing 3n+1.
 
-<img src="/assets/scatter_plot.png" width="800"/>
+<img src="/assets/ex_scatter.png" width="800"/>
 
-<img src="/assets/line_chart_plot.png" width="800"/>
+<img src="/assets/ex_line_chart.png" width="800"/>

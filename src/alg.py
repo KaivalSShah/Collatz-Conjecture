@@ -1,5 +1,8 @@
+import pandas as pd
+
 number = int(input("starting positive integer: "))
 run_till = int(input("Ending positive integer: "))
+run_for = run_till - number
 original_num = int(number)
 i=0
 iterations = {}
@@ -20,3 +23,8 @@ while i >= 0 and original_num <= run_till:
         number = 3*number + 1
         i+=1
 print(iterations)
+x_axis = list(iterations.keys())
+y_axis = list(iterations.values())
+df = pd.DataFrame(data=iterations)
+df = (df.T)
+df.to_excel('./data/'+str(run_for)+'_collatz.xlsx')

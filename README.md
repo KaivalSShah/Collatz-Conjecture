@@ -1,4 +1,4 @@
-# Collatz-Conjecture
+# Collatz Conjecture
 Establishing 3n+1.
 
 <img src="/assets/ex_scatter.png" width="800"/>

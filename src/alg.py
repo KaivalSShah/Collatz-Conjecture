@@ -40,4 +40,4 @@ for i in range(0, len(x_axis)):
 print(x_axis)
 print(y_axis)
 df = pd.DataFrame({'number': x_axis, 'iterations': y_axis})
-df.to_excel('./../data/collatz.xlsx')
+df.to_excel('./data/collatz.xlsx')
